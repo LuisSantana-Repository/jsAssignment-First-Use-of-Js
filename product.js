@@ -112,6 +112,7 @@ class Product {
                 delete obj[key];
             }
         }
+        return new Product(obj._name,obj._description,obj._imageUrl,obj._unit,obj._stock,obj._pricePerUnit,obj._Category)
     }
     
     // cleans the obj, tests if it has the required properties and returns a new Product
